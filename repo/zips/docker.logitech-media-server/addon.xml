@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="docker.logitech-media-server"
+       name="Logitech Media Server"
+       version="1.0.0"
+       provider-name="ronan-ln">
+  <requires>
+    <import addon="os.libreelec.tv" version="7.0" />
+    <import addon="service.system.docker" version="0.0.0" />
+    <import addon="docker.linuxserver.updater" version="0.0.0"/> 
+ </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Logitech Media Server in a docker container</summary>
+    <description>
+Logitech Media Server is a streaming audio server for your local collection and streaming. It supports synchronising clients for multi-room audio for example.
+This addon allows to stream Kodi's audio outpout to all the clients connected to the server via Pulseaudio.
+    </description>
+    <disclaimer>
+    </disclaimer>
+    <news>
+    </news>
+    <platform>all</platform>
+    <website>https://github.com/ronan-ln/docker.logitech-media-server</website>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
