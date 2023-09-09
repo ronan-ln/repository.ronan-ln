@@ -4,17 +4,17 @@
        version="1.0.2"
        provider-name="LinuxServer.io">
   <requires>
-    <import addon="os.libreelec.tv" version="7.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
     <import addon="service.system.docker" version="0.0.0" />
-  </requires>
+    <import addon="docker.linuxserver.updater" version="0.0.0"/>
+ </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Transmission in a docker container</summary>
     <description>
-Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more. 
+Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, 
+webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more. 
 
 This is a docker container brought to you by the LinuxServer.io team.
 Please visit https://linuxserver.io for more information.
@@ -42,3 +42,4 @@ docker.linuxserver.transmission:
     </assets>
   </extension>
 </addon>
+
