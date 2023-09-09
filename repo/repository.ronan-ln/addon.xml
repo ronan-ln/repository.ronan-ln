@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.ronan-ln" name="Ronan's Kodi addon repository" version="0.0.3" provider-name="ronan-ln">
+<addon id="repository.ronan-ln" name="Ronan's Kodi addon repository" version="0.0.5" provider-name="ronan-ln">
     <extension point="xbmc.addon.repository" name="Ronan's Kodi addon repository">
         <dir>
             <info 
