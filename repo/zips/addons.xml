@@ -62,7 +62,7 @@ This addon allows to stream Kodi's audio outpout to all the clients connected to
         <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="repository.ronan-ln" name="Ronan's Kodi addon repository" version="0.0.2" provider-name="ronan-ln">
+</addon><addon id="repository.ronan-ln" name="Ronan's Kodi addon repository" version="0.0." provider-name="ronan-ln">
     <extension point="xbmc.addon.repository" name="Ronan's Kodi addon repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/ronan-ln/repository.ronan-ln/master/repo/zips/addons.xml</info>
