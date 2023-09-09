@@ -1,3 +1,6 @@
 [submodule "repo/docker.logitech-media-server"]
 	path = repo/docker.logitech-media-server
 	url = git@github.com:ronan-ln/docker.logitech-media-server.git
+[submodule "libreelec-addons"]
+	path = libreelec-addons
+	url = https://github.com/linuxserver/libreelec-addons.git
